@@ -10,6 +10,7 @@ public class TestClass {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
 		System.out.println("You said : "+str);
+		sc.close();
 	}
 
 }
